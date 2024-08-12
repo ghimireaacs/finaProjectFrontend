@@ -1,0 +1,128 @@
+:root {
+    --primary: #db636f;
+    --secondary: #c0b291;
+    --dark: #2a383f;
+    --sidebar: #290226;
+    --activeMenu: white;
+    --inactiveMenu: rgba(255, 255, 255, 0.731);
+    --bgColor: #fcf9da;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.icons {
+    color: "red";
+    font-size: 40px;
+}
+.circle {
+    height: 200px;
+    width: 150px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 5px 5px gray;
+    border: 2px solid rgb(103, 109, 109);
+}
+.customInput {
+    height: 30px;
+    width: 100%;
+}
+.inputgrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputgrp label {
+    flex-basis: 40%;
+}
+.inputgrp input {
+    flex-basis: 60%;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+a {
+    text-decoration: none;
+}
+.form {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 20px;
+}
+
+form input,
+form select,
+form button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h2 + ul {
+    list-style-type: none;
+    padding: 0;
+}
+.profileImageContainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.profileImage {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.edit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+}
+.occupation {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock {
+    color: white;
+}
+.slot:hover {
+    background-color: green;
+    color: white;
+}

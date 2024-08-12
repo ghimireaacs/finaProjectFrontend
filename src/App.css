@@ -1,0 +1,21 @@
+
+
+.menu{
+    position: relative;
+}
+.menu-name{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    /* width: 140px; */
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 2;
+    display: none;
+    white-space: nowrap;
+}
+.menu:hover .menu-name{
+    display: block;
+}
